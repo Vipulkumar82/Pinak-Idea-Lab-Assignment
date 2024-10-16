@@ -1,0 +1,11 @@
+.bg-diagonal-gradient {
+    background: linear-gradient(135deg, #2a1768 50%, #eceef6 50%);
+    min-height: 100vh;
+}
+.service-box {
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+.service-box.rotate {
+    transform: rotateY(360deg);
+}
